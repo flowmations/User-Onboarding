@@ -4,7 +4,11 @@ An end-to-end onboarding pipeline that takes a new-user request from a customer 
 
 Built for a managed services provider (SkyCamp Technologies) supporting 30+ client organizations on Microsoft 365.
 
-> **Result:** Per-user onboarding effort dropped from about **1 hour to 10 to 15 minutes**. For a typical new user, a technician now spends more time helping them set up MFA than running the entire onboarding process.
+> **Results**
+>
+> - **Time:** Per-user onboarding effort dropped from about **1 hour to 10 to 15 minutes**. For a typical new user, a technician now spends more time helping them set up MFA than running the entire onboarding process.
+> - **Standardization:** Every user is onboarded the same way, every time, regardless of which technician handles the ticket. Naming, licensing, group membership, and documentation follow company standards automatically instead of depending on someone's memory.
+> - **No missed revenue:** Billing updates are built into the workflow, so a user can't be onboarded without the invoice being updated. Services tied to group membership are pre-selected from the CRM, so customers always receive (and are billed for) what they pay for.
 
 ---
 
@@ -165,7 +169,7 @@ A virtual assistant completes a post-onboarding audit form to verify that every 
 | Technician time per onboarding | ~1 hour | 10 to 15 minutes |
 | Weekly volume handled | 5 to 10 users | Same volume, a fraction of the effort |
 | Invoice updates | Manual, sometimes missed | Automatic on every onboarding |
-| Service group assignment | From memory or manual lookup | Pre-selected from CRM service flags |
+| Service group assignment | From memory | Pre-selected from CRM service flags |
 | Documentation | Written after the fact | Generated automatically |
 | Follow-up with the new user | Ad hoc | Ticket auto-reopens 7 days after start |
 
